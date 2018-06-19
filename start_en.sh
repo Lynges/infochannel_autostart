@@ -1,4 +1,4 @@
-'#!/bin/sh
+#!/bin/sh
 wget https://raw.githubusercontent.com/Lynges/infochannel_autostart/master/autoinstall.sh
 chmod +x autoinstall.sh
 ./autoinstall.sh
