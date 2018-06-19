@@ -13,7 +13,8 @@ export DISPLAY=":0"
 # default value
 # xset dpms 600 600 600 &
 # 1 minute blank time
-xset dpms 0 0 0 &
+xset -dpms &
+xset s noblank &
 xset s off &
 
 # start the window manager - needed for the kiosk to fill the entire screen
