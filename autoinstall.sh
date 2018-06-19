@@ -6,3 +6,6 @@ sed -i "/NODM_X_OPTIONS='-nolisten tcp'/c NODM_X_OPTIONS='-nolisten tcp -nocurso
 cd /root
 wget https://raw.githubusercontent.com/Lynges/infochannel_autostart/master/xsession
 mv xsession .xsession
+
+cd /etc/cron.d
+wget https://raw.githubusercontent.com/Lynges/infochannel_autostart/master/daily_reboot
